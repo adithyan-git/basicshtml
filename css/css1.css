@@ -1,0 +1,60 @@
+/* simple selector */
+/* class */
+.display-f{
+    display: flex;
+}
+
+.justify-content{
+
+    justify-content: space-between;
+
+}
+
+.search-icon{
+
+    width: 20px;
+
+}
+
+.list-style{
+    list-style: none;
+
+}
+
+/* tag */
+body{
+
+    background-color: blanchedalmond;
+}
+/* id */
+#searchicon{
+
+    width: 15px;
+}
+
+/* combinator selector*/
+.list-style li{
+    display: inline-block;
+}
+
+/* child selector */
+
+.list-style >li>a{
+    text-decoration: none;
+
+    color: blueviolet;
+}
+
+.adjusent+div{
+
+    color: brown;
+}
+
+.link a{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px ;
+}
